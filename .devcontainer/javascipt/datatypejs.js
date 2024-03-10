@@ -9,7 +9,7 @@ let useremail ;
 const id = Symbol('123');
 const anotherid = Symbol('123');
 
-console.log(id==anotherid);
+// console.log(id==anotherid);
 
 // referened type --( Non primitive) 
 
@@ -28,4 +28,34 @@ let myobj = {
 const myfunction = function(){
     console.log("hello world !");
 }
-myfunction();
+// myfunction();
+
+// ************************ MEMORY ****************************************
+
+// stack(primitive) heap(Non-Primitive)
+// let mytoyname = "Dinasour";
+
+// let anothername = mytoyname;
+
+// anothername = "penginuean";
+
+// console.log(mytoyname);
+// console.log(anothername);
+
+
+
+// primitive datat-type
+
+let userone = {
+    email : "vermavedant063@gamil.com", 
+    upi : "user@upl",
+}
+console.log(userone);
+
+let usertwo = {
+    email : "vermavedant035@gmail.com",
+}
+console.log(userone.email);
+console.log(usertwo.email);
+
+
